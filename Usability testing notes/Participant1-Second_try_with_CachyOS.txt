@@ -1,0 +1,29 @@
+- Clicking back went all the way out of installer
+
+- Commented "CachyOS feels much faster"
+
+- Had to pause installation as it said EFI partition wasn't big enough
+
+- Had to manually partition
+
+- Was a little overwhelmed with the DE/WM options
+
+- Said stuff was a lot easier now that she knew what was going on
+
+- Asked how long install process was going to take
+
+- Likes Limine a lot more than GRUB, doesn't like it automatically
+
+- Opened on non-primary monitor/primary monitor went to sleep
+
+- Primary monitor not detecting at all for some reason
+
+- Had her try installing the nvidia-dkms drivers, didn't fix
+
+- Has monitor switcher, for some reason was causing issues
+
+- Selected Niri as WM, is causing some confusion configuring
+
+- Seems to have some trouble getting use to workflow using Niri
+
+- Installing Steam and Unity dev enviroment fine, also got random old RPGMaker games running with Wine easily

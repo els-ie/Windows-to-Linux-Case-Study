@@ -1,0 +1,46 @@
+- When going to Fedora website, clicked on Get Fedora and assumed Fedora Workstation based on that. Asked her if she knew difference between workstation and KDE one, thought Workstation was Stable and Plasma was the non-stable. Told her to scroll down and click on "Learn More" for both, after reading through and looking at pictures, decided she wanted KDE. Said GNOME looked like MacOS.
+
+- Formatted drive as NTFS
+
+- Download link for Media Writer goes to GitHub page, took around 30 seconds to actually find the download link on the page
+
+- Second monitor is duplicating initially
+
+- Had on call and Devices named differently than windows
+
+- Clicked "Next" button to try to install to Hard Drive instead of icon in middle. (People tend to not read small text)
+  Thought press icon below meant "Click Next"
+
+- Having issues getting installer to primary monitor
+
+- Installer is going fullscreen on non-primary monitor despite setting primary monitor
+
+- Way it displayed partition stuff was confusing/scary sinces didn't display what the partitions were prior to letting user select partition
+
+- No option to change primary monitor during Setup screen
+
+- Confusion about what hostname is
+
+- Annoyance about having to do welcome center before being able to set primary monitor
+
+- Icons don't look like button
+
+- No feedback that package has been download
+
+- Install list very cluttered commented that she doesn't think fonts should show up in installed list
+
+- Search doesn't clear when changing categories, installed Chrome and then went to look at games but only 2 showed up due to search entry field not clearing
+
+- Installed Flatpak version of Chrome due to enabling third party repositories (Sort order should be modified so Flatpak shows up), wasn't able to import to Firefox due to Flatpak being sandboxed
+
+- For some reason running slowly
+
+- Liked panel settings
+
+- Not getting a lot of feedback regarding installation of new software, would like a pop up when things are done installing
+
+- Getting windows that pop up for a second then go away before can see
+
+- Embedded Youtube videos wouldn't load in store
+
+- Decided she doesn't like Fedora with KDE, wants to try a different distro.

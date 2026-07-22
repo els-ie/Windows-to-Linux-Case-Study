@@ -21,7 +21,7 @@ Smaller points of friction also exist due to fragmentation of the platform. Some
 
 ### Goals
 
-Due to the nature of open source and what is being studied, there won't be any definitive answers or solutions to larger linux ecosystem issues being proposed. This primarily servers as an analysis of the current landscape and to document of some of the possible issues and pain points that someone who is more familiar with Windows and attempts to migrate to Linux may encounter. 
+Due to the nature of open source and what is being studied, there won't be any definitive answers or solutions to larger linux ecosystem issues being proposed. This primarily serves as an analysis of the current landscape and to document of some of the possible issues and pain points that someone who is more familiar with Windows and migrates to Linux may encounter. 
 
 Examples of possible changes to smooth over more minor points of friction encountered in usability testing will be provided, but the scope of these will be limited to smaller changes to the existing onboarding experience of the distros tested.
 

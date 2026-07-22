@@ -48,7 +48,19 @@ The Linux onboarding experience covers an incredibly broad number of use cases a
 
 ## Lessons from usability testing
 
-### WIP
+### Participant 1
+
+### Background 
+- Has used Windows for the past 30 years start with Windows 3.1.
+- Primary desktop use case is general web browsing, playing games, and game development.
+- Consider themselves highly confident when it comes to their technical skills with Windows.
+- Exposure to Linux is limited to them running it off a live CD for a few weeks when they needed to take notes for class and their hard drive was broken. 
+
+Primary motivation for deciding to to move off Windows is: \
+"Windows has gotten slower, windows updates have caused my computer issues numerous times. It's been bloated with unnecessary AI features such as Copilot and the search functionality has become infinitely worse since the days that I could just tap the windows key and type a file name. I've had a windows update nearly brick my work computer earlier this year."
+
+#### Fedora with KDE Plasma
+Originally I had them attempt to install Fedora, primary reasons being they didn't want to tinker too much, but also for their primary uses cases something with a more frequent release cycle would provide better compatibility with newer releases of Proton and Gamescope compared to something Debian based. 
 
 ## Building a better onboarding experience for new users
 

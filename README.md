@@ -50,7 +50,7 @@ The Linux onboarding experience covers an incredibly broad number of use cases a
 
 ### Participant 1
 
-### Background 
+#### Background 
 - Has used Windows for the past 30 years start with Windows 3.1.
 - Primary desktop use case is general web browsing, playing games, and game development.
 - Consider themselves highly confident when it comes to their technical skills with Windows.
@@ -60,16 +60,20 @@ Primary motivation for deciding to to move off Windows is: \
 "Windows has gotten slower, windows updates have caused my computer issues numerous times. It's been bloated with unnecessary AI features such as Copilot and the search functionality has become infinitely worse since the days that I could just tap the windows key and type a file name. I've had a windows update nearly brick my work computer earlier this year."
 
 #### Fedora with KDE Plasma
-Originally I had them attempt to install Fedora, primary reasons being they didn't want to tinker too much, but also for their primary uses cases something with a more frequent release cycle would provide better compatibility with newer releases of Proton and Gamescope compared to something Debian based. 
+Originally I had them attempt to install Fedora, primary reasons being they didn't want to tinker too much and wanted something stable, but also with their primary uses cases more frequent release cycle would likely provide better compatibility with newer releases of Proton and Gamescope compared to something like Debian with more infrequent releases. 
 
 Starting from the Fedora website, there wasn't any download button immediately visible on screen so they selected the "Get Fedora" in the above navbar. Their first instinct was to select the Workstation edition. Asking them why they chose that one, they stated that the text under KDE Plasma stating "The next generation personal desktop." made them think that it was the unstable version.
-![Screenshot: Navbar with "Get Fedora" selected and a table of the various editions of Fedora available below.](example-pictures/getfedora.png)
+
+![Screenshot: Navbar with "Get Fedora" selected and a table of the editions of Fedora available below.](example-pictures/getfedora.png)
+_The various editions of Fedora available with brief descriptions_
 
 I directed them to return to the homepage and scroll down at which point they saw the boxes with expanded descriptions and clicked on "Learn More" for the Workstation edition. After looking through screenshots they commented that it "Looked like macOS" and clicked the back button to go look at the KDE Plasma edition. After scrolling down to look through they screenshots, they said that it looked more like Windows and clicked the Download button.
 
 After downloading the ISO, there was some confusion on what to do with it. They first attempted to just drop the ISO on a USB drive, but due to time contraints, I informed them that they wouldn't work. They proceeded to Google "how to install an iso". After reading they began to look for utilities to write it to USB. I informed them that there was a link to a program that could do it on the Fedora download page. They then returned to the download page and clicked on the link to download Fedora Media Writer which took them to a GitHub page, there was about 30 seconds of hesitation as they tried to find the download link.
 
-_UX improvement: The download process could likely be streamlined by directly linking to the file download._
+_UX improvement suggestion: The download process could likely be streamlined by directly linking to the file download instead of directing to a GitHub download page._
+
+The process of writing the ISO to the went smoothly. After doing so they rebooted into their live enviroment. There was some initial concern from them due to having a multi-monitor setup and the screen being duplicated across both their displays. This quickly fixed itself but then there was some annoyance due to their smaller non-primary monitor being treated as the primary one.
 
 
 

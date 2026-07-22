@@ -25,7 +25,7 @@ Due to the nature of open source and what is being studied, there won't be any d
 
 Examples of possible changes to smooth over more minor points of friction encountered in usability testing will be provided, but the scope of these will be limited to smaller changes to the existing onboarding experience of the distros tested.
 
-## Biases and Limitations of This Case Study
+## Biases and limitations of this case study
 
 ### Time frame
 This was planned and put together in only a week. With more time I would have liked to planned a more structured usability test and built prototypes for user feedback on possible changes. I would have also performed more preliminary research and collected more external citations and data from a wider variety of online communities.

@@ -62,6 +62,17 @@ Primary motivation for deciding to to move off Windows is: \
 #### Fedora with KDE Plasma
 Originally I had them attempt to install Fedora, primary reasons being they didn't want to tinker too much, but also for their primary uses cases something with a more frequent release cycle would provide better compatibility with newer releases of Proton and Gamescope compared to something Debian based. 
 
+Starting from the Fedora website, there wasn't any download button immediately visible on screen so they selected the "Get Fedora" in the above navbar. Their first instinct was to select the Workstation edition. Asking them why they chose that one, they stated that the text under KDE Plasma stating "The next generation personal desktop." made them think that it was the unstable version.
+![Screenshot: Navbar with "Get Fedora" selected and a table of the various editions of Fedora available below.](example-pictures/getfedora.png)
+
+I directed them to return to the homepage and scroll down at which point they saw the boxes with expanded descriptions and clicked on "Learn More" for the Workstation edition. After looking through screenshots they commented that it "Looked like macOS" and clicked the back button to go look at the KDE Plasma edition. After scrolling down to look through they screenshots, they said that it looked more like Windows and clicked the Download button.
+
+After downloading the ISO, there was some confusion on what to do with it. They first attempted to just drop the ISO on a USB drive, but due to time contraints, I informed them that they wouldn't work. They proceeded to Google "how to install an iso". After reading they began to look for utilities to write it to USB. I informed them that there was a link to a program that could do it on the Fedora download page. They then returned to the download page and clicked on the link to download Fedora Media Writer which took them to a GitHub page, there was about 30 seconds of hesitation as they tried to find the download link.
+
+_UX improvement: The download process could likely be streamlined by directly linking to the file download._
+
+
+
 ## Building a better onboarding experience for new users
 
 ### WIP

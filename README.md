@@ -12,22 +12,29 @@ Even for those that do stick with Linux, a consistent complaint seems to be how 
 
 ## Goals
 
-### WIP
+###WIP
 
-## Limitations of this case study
+## Limitations and biases of this case study
+
+### Time frame
+This was planned and put together in only a week. With more time I would have liked to planned a more structured usability test and built prototypes for user feedback on possible changes. I would have also performed more preliminary research and collected more external citations and data from a wider variety of online communities.
 
 ### Lack of existing data
 While searching for pre-existing data, there seemed to be a lack of publicly accessible studies and survey results. The [Fedora User and Contributor Survey](https://discussion.fedoraproject.org/t/fedora-user-and-contributor-survey-now-open/155729) results for 2025 don't seem to be released. I reached out to the contacted listed on the survey regarding them, but have yet to recieve a reply. For data specifically regarding the Anaconda installer, I was able to find [usability test results](https://fedoraproject.org/w/uploads/1/1f/Brno-Session1-Rreport.pdf) from the 2013 [UX Redesign](https://fedoraproject.org/wiki/Anaconda/UX_Redesign) for Fedora 19, but I was unable to find the results of the survey from then. As the data is 13 years old and for a previous version of Anaconda, it was primarily used as a reference for formulating my own case study.
 
-### Time frame
-This was planned and put together in only a week. With more time I would have conducted more preliminary research and collected more external citations from a wider variety of online communities before putting together a survey. 
-I also would have liked to planned a more structured usability test and built prototypes for user feedback on potential changes.
-
-### User participation
-At this time usability testing has only been conducted with **1** user. There are plans to conduct them with **2** more users and potential interest from a third, but due to scheduling conflicts I was unable to perform them before putting this out. The repo for this case study will be updated with notes from those usability tests once they're conducted. Ideally I would like to find a 5th user to be thorough and conform to the Nielsen Norman Group usability testing methodology.
+### Sample pool bias
+This case study has been independently designed and conducted entirely by myself without the support of any institutions. This has limited my outreach and participation to my friends and their social circles. This skews sampling biases towards people who do creative work like music production, digital art, and game development.
 
 ### Survey response
-Due to the time frame and this being an indepenendently conducted case study, getting people to respond to [my survey](https://forms.gle/wQHy6iMmnYMQkr8m6) has been a challenge. While some insights have been gained from the responses received so far, I do not feel as if enough responses have been gathered to establish an overarching narratives or larger trends in the data. Once a sufficient number of responses have been recieved, the survery will be closed and this document will be updated to include the survey results and any notes about them. 
+Getting people to respond to [my survey](https://forms.gle/wQHy6iMmnYMQkr8m6) has been a challenge. While some insights have been gained from the responses received so far, I do not feel as if a sufficient number of responses have been gathered to establish an overarching narratives or larger trends in the data. Once enough responses have been received, the survery will be closed and this document will be updated.
+
+### Usability testing participation
+At this time usability testing has only been conducted with **1** user. There are plans to conduct them with **2** more users and potential interest from a third, but due to scheduling conflicts I was unable to perform them before putting this out. The repo for this case study will be updated with notes from those usability tests once they're conducted. Ideally I would like to find a 5th user to be thorough in my usability testing and conform to the Nielsen Norman Group methodology.
+
+### Scope of inquiry and open-endedness
+
+Due to the nature of what is being studied, the Linux onboarding experience covers an incredibly broad number of use cases and the question of when can a user be considered to have "fully moved" to Linux can stretch out as they find little things to fix or run into issues attempting to perform more infrequent tasks. Usability testing is also being performed on their personal machines and due to participation being voluntary without any sort of financial incentives the distributions chosen and tasks being performed are individualized based on my own personal opinions of what best fit their workflows and personality. I plan to continue updating this document over the coming weeks with any additional relevant information gleamed as participants in my usability test continue to use Linux.
+
 
 ## Lessons from usability testing
 

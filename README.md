@@ -64,7 +64,8 @@ Originally I had them attempt to install Fedora, primary reasons being they didn
 
 Starting from the Fedora website, there wasn't any download button immediately visible on screen so they selected the "Get Fedora" in the above navbar. Their first instinct was to select the Workstation edition. Asking them why they chose that one, they stated that the text under KDE Plasma stating "The next generation personal desktop." made them think that it was the unstable version.
 
-![Screenshot: Navbar with "Get Fedora" selected and a table of the editions of Fedora available below.](example-pictures/getfedora.png)
+
+<img src="example-pictures/getfedora.png" Alt="Screenshot: Navbar with 'Get Fedora' selected and a table of the editions of Fedora available below." width="900" /> \
 _The various editions of Fedora available with brief descriptions._
 
 I directed them to return to the homepage and scroll down at which point they saw the boxes with expanded descriptions and clicked on "Learn More" for the Workstation edition. After looking through screenshots they commented that it "Looked like macOS" and clicked the back button to go look at the KDE Plasma edition. After scrolling down to look through they screenshots, they said that it looked more like Windows and clicked the Download button.
@@ -79,31 +80,30 @@ The next point of friction occured when the user attempted to install to their H
 
 _UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
 
-<img src="example-pictures/installbutton.png" alt="Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating 'Install to Hard Drive'" width="80%"> \
+<img src="example-pictures/installbutton.png" alt="Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating 'Install to Hard Drive'" width="600"> \
 _Before_
 
-<img src="example-pictures/installbuttonedit.png" alt="Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom" width="80%"> \
+<img src="example-pictures/installbuttonedit.png" alt="Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom" width="600"> \
 _After_
 
 <p float="left">
-  <img src="example-pictures/installscreen.png" alt="" width="49%" />
-  <img src="example-pictures/installreview.png" alt="" width="49%" />
+  <img src="example-pictures/installscreen.png" alt="Screenshot: Screen asking how the disk should be partitioned in the Fedora installer" width="49%" />
+  <img src="example-pictures/installreview.png" alt="Screenshot: Review and install screen of Fedora installer" width="49%" />
   <i>Before</i>
 </p>
 
 
-
 <p float="left">
-  <img src="example-pictures/installscreenedit.png" alt="" width="49%" />
-  <img src="example-pictures/installreviewedit.png" alt="" width="49%" />
+  <img src="example-pictures/installscreenedit.png" alt="Screenshot: Same screen from above asking how the disk should be partitioned with the KDE Partition Manager built into the interface" width="49%" />
+  <img src="example-pictures/installreviewedit.png" alt="Screenshot: Review and install screen with the KDE Partition Manager built into the interface" width="49%" />
   <i>After</i>
 </p>
 
 
-<img src="example-pictures/setupscreen.png" alt="" width="80%" /> \
+<img src="example-pictures/setupscreen.png" alt="Screenshot: Fedora KDE Plasma setup screen" width="800" /> \
 _Before_
 
-<img src="example-pictures/setupscreenedit.png" alt="" width="80%" /> \
+<img src="example-pictures/setupscreenedit.png" alt="Screenshot: Fedora KDE Plasma setup screen with added Display and Accessibility buttons " width="800" /> \
 _After_
 
 ### WIP

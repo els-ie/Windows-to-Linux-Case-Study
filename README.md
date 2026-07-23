@@ -73,14 +73,14 @@ I directed them to return to the homepage and scroll down at which point they sa
 After downloading the ISO, there was some confusion on what to do with it. They first attempted to just drop the ISO on a USB drive, but due to time contraints, I informed them that they wouldn't work. They proceeded to Google "how to install an iso". After reading they began to look for utilities to write it to USB. I informed them that there was a link to a program that could do it on the Fedora download page. They then returned to the download page and clicked on the link to download Fedora Media Writer which took them to a GitHub page, there was about 30 seconds of hesitation as they tried to find the download link.
 
 > [!NOTE]
-> _UX improvement suggestion: The download process could likely be streamlined by directly linking to the file download instead of directing to a GitHub download page._
+> _UX improvement opportunity: The download process could likely be streamlined by directly linking to the file download instead of directing to a GitHub download page._
 
 The process of writing the ISO to the went smoothly. After doing so they rebooted into their live enviroment. There was some initial concern from them due to having a multi-monitor setup and the screen being duplicated across both their displays. This quickly fixed itself but then there was some annoyance due to their smaller non-primary monitor being treated as the primary one. They then went into the display settings and configured their larger main monitor to be the primary display.
 
 The next point of friction occured when the user attempted to install to Fedora to their hard drive. When going to install they clicked the "Next" button, as they thought the Fedora icon in the center was just an image and it wasn't immediately obvious that it was something that could be clicked.
 
 > [!NOTE]
-> _UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
+> _UX improvement opportunity: Place an Install button beside the Next button with updated information text stating what the Next button does._
 
 <img src="example-pictures/installbutton.png" alt="Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating 'Install to Hard Drive'" width="600"> \
 _Before_
@@ -90,12 +90,14 @@ _After_
 
 After some confusion clicking next though the welcome center slides and having the application close, they clicked the "Install to Hard Drive" icon on the desktop. Some further friction occured when the Anaconda installer opened on their non-primary display despite configuring their larger main monitor to be the primary earlier. They attempted to drag the installer window over to their primary display and after a few attempts quit out of the installer and tried to run it again. It continued to open up on the wrong monitor and they repeated this process another two times becoming increasingly frustrated before giving up and continuing the installation process on their secondary monitor.
 
-They clicked next through the language options as their native language English was selected by default. Upon reaching the "Installation method" screen they selected the "Share disk with another operating system" option as they were installing Fedora as a dual boot alongside Windows. When the "Reclaim space" window popped up, they stared at it for a while and became hesitant about continuing the installation process as they didn't know how to operate it and had a hard time telling how the disk was actually partitioned and what actions would affect their Windows install. After staring at it for a while, they decided to abort the installation process and proceeded to reboot back into Windows to shrink their partition in there.
+They clicked next through the language options as their native language English was selected by default. Upon reaching the "Installation method" screen they selected the "Share disk with another operating system" option as they were installing Fedora as a dual boot alongside Windows. When the "Reclaim space" window popped up, they stared at it for a while and became hesitant about continuing the installation process as they didn't know how to operate it, had a hard time telling how the disk was actually partitioned, and what actions would affect their Windows install. They continued to hesitate for a while before deciding to abort the installation process and reboot back into Windows to shrink their partition there.
 
-After partitioning the disk how they wanted to in Windows, they returned to the Fedora Live USB, again becoming annoyed at it setting their smaller monitor as the primary monitor and commented "Why doesn't it just detect the larger monitor as the main one?". They configured their monitor settings again and re-ran the installer. Again it opened on their secondary monitor, this time they just made an annoyed sound and didn't attempt to mess with it at all.
+After partitioning the disk how they wanted to in Windows, they returned to the Fedora Live USB, again becoming annoyed at it setting their smaller monitor as the primary monitor and commented "Why doesn't it just detect the larger monitor as the main one?" They configured their monitor settings again and re-ran the installer. Again it opened on their secondary monitor, this time they just made an annoyed sound and didn't attempt to mess with it at all. They continued through the installation process, selecting the same options as prior. They opted not to enable encryption.
+
+When they reached the "Review and install" screen there was some confusion caused by it displaying the /home mount point as the total size shown didn't match the space they had freed up and there were concerns that it was overwriting their Windows install. After explaining /home is located within the root (/) mount point and it wasn't a seperate partition, they clicked the install button and proceeded to wait as it installed. During the installation process they asked how long it would take commenting "It would be nice if there was some sort of estimate."
 
 > [!NOTE]
-> _UX improvement suggestion: Build KDE partition manager into the interface to give better visual indication of how the disk will be partitioned, also remove the /home mountpoint on the review screen as it's uncessary information and causes confusion about the actual partition scheme._
+> _UX improvement opportunity: Build KDE Partition Manager into the Anaconda interface to give better visualization of how the disk will be partitioned, also remove the /home mountpoint on the review screen as it's uncessary information and causes confusion about the actual partition scheme._
 
 <p float="left">
   <img src="example-pictures/installscreen.png" alt="Screenshot: Screen asking how the disk should be partitioned in the Fedora installer" width="49%" />
@@ -108,15 +110,34 @@ After partitioning the disk how they wanted to in Windows, they returned to the 
   <i>After</i>
 </p>
 
+The installation process finished and they rebooted into Fedora. A minor point of friction occured during the reboot process when GRUB automatically booted into Fedora after 3 seconds as they wanted to boot into Windows first to check that their installation was still good. On the setup screen it once again defaulted to being on their smaller non-primary monitor, there was no immediately obvious way to configure monitors without proceeding through the entire setup process. In their case this was just a repeated point of friction, but I imagine on other setups where someone is using a vertical monitor it could present a much larger issue. Something I additionally observed was the lack of access to Accessibility options until finishing the setup process. 
 
 > [!NOTE]
-> _UX improvement suggestion: Add display and accessibility buttons on the setup screen. It's incredibly frustrating for the user to have to go through the entire setup process to access these, especially if their screen doesn't default to the correct layout._
+> _UX improvement opportunity: Add display and accessibility buttons on the setup screen. It's incredibly frustrating for the user to have to go through the entire setup process to access these, especially if their screen doesn't default to the correct layout._
 
 <img src="example-pictures/setupscreen.png" alt="Screenshot: Fedora KDE Plasma setup screen" width="800" /> \
 _Before_
 
 <img src="example-pictures/setupscreenedit.png" alt="Screenshot: Fedora KDE Plasma setup screen with added Display and Accessibility buttons " width="800" /> \
 _After_
+
+They clicked through the setup option, selecting dark mod and only pausing on the Hostname screen to ask what "Hostname" was to which I explained it's the name of their PC and they'd primarily see it in the terminal as username@hostname. After completing setup they immediately went to display settings to configure their monitor layout. Next they read though the Welcome Center exploring the various features explained in the slides.
+
+Looking in the KDE app store they seemed bemused at the list of games available, and installed the game 0 A.D as they're a fan of the Age of Empires series. They looked through the installed applications list asking "What is all this?" in reference to it displaying installed libraries, they also commented that they didn't think installed fonts needed to show up in here.
+
+> [!NOTE]
+> _UX improvement opportunity: Add categories to the installed application list in the KDE app store, similar to how the GNOME app store does it._
+
+Returning to the Welcome Center, they finished clicking through it until they reached the Enable Third Party Respositories screen. They asked if they should do this and why proprietary software isn't just enabled by default. I gave a short explanation of the historical contexts of why some people prefer to only use FOSS applications and they clicked enable.
+
+Next they began to try to download Discord by going to the website and clicking the download link there, they ended up clicking on the .deb and I informed them that one wouldn't work and most things should be installed through the app store. They downloaded Discord through the app store and next moved onto moving all their Chrome bookmarks as they wanted to move to Firefox. They downloaded Chrome and logged in but were unable to import their data into Firefox due to Chrome being a flatpak. I explained flatpak sandboxing and recommended they manually export everything.
+
+> [!NOTE]
+> _UX improvement opportunity: When enabling Flatpaks or downloading one for the first time, have a short explanation of sandboxing and link to [a page explaining the concept](https://docs.flatpak.org/en/latest/sandbox-permissions.html)._
+
+During this entire process, things also seemed to be running very slowly with noticeable lag and things taking multiple seconds to open up. I had them open up the system monitor and there didn't seem to be anything obvious causing the slowdown, I also had them make sure updates weren't in the middle of running. At this point they seemed very soured by the entire experience and didn't particularly like KDE Plasma after further use. I proposed we stop for the night and try again with CachyOS instead to which they agreed.
+
+#### CachyOS
 
 ### WIP
 

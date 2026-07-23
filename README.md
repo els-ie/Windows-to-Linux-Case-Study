@@ -77,7 +77,9 @@ The process of writing the ISO to the went smoothly. After doing so they reboote
 
 The next point of friction occured when the user attempted to install to their Hard Drive. When attempting to install they clicked the "Next" button as they thought the Fedora icon in the center was just an image and it wasn't immediately obvious that it was a button.
 
-_UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does. See example below._
+_UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
+
+_See example below._
 
 ![Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating "Install to Hard Drive"](example-pictures/installbutton.png)
 _Before_

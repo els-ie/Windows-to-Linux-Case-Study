@@ -87,10 +87,21 @@ _Before_
 ![Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom](example-pictures/installbuttonedit.png)
 _After_
 
-![]()
+![](example-pictures/installscreen.png)
+![](example-pictures/installreview.png)
+_Before_
+
+![](example-pictures/installscreenedit.png)
+![](example-pictures/installreviewedit.png)
+_After_
 
 
-## Building a better onboarding experience for new users
+
+![](example-pictures/setupscreen.png)
+_Before_
+
+![](example-pictures/setupscreenedit.png)
+_After_
 
 ### WIP
 

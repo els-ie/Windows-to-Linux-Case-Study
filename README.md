@@ -56,7 +56,7 @@ The Linux onboarding experience covers an incredibly broad number of use cases a
 - Consider themselves highly confident when it comes to their technical skills with Windows.
 - Exposure to Linux is limited to them running it off a live CD for a few weeks when they needed to take notes for class and their hard drive was broken. 
 
-Their primary motivation for deciding to to move off Windows:
+Their primary motivation for moving off Windows:
 > "Windows has gotten slower, windows updates have caused my computer issues numerous times. It's been bloated with unnecessary AI features such as Copilot and the search functionality has become infinitely worse since the days that I could just tap the windows key and type a file name. I've had a windows update nearly brick my work computer earlier this year."
 
 #### Fedora with KDE Plasma

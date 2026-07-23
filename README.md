@@ -75,6 +75,19 @@ _UX improvement suggestion: The download process could likely be streamlined by 
 
 The process of writing the ISO to the went smoothly. After doing so they rebooted into their live enviroment. There was some initial concern from them due to having a multi-monitor setup and the screen being duplicated across both their displays. This quickly fixed itself but then there was some annoyance due to their smaller non-primary monitor being treated as the primary one.
 
+The next point of friction occured when the user attempted to install to their Hard Drive. When attempting to install they clicked the "Next" button as they thought the Fedora icon in the center was just an image and it wasn't immediately obvious that it was a button.
+
+_UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
+
+_See example below._
+
+![Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating "Install to Hard Drive"](example-pictures/installbutton.png)
+_Before_
+
+![Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom](example-pictures/installbuttonedit.png)
+_After_
+
+![]()
 
 
 ## Building a better onboarding experience for new users

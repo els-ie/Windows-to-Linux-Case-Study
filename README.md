@@ -65,7 +65,7 @@ Originally I had them attempt to install Fedora, primary reasons being they didn
 Starting from the Fedora website, there wasn't any download button immediately visible on screen so they selected the "Get Fedora" in the above navbar. Their first instinct was to select the Workstation edition. Asking them why they chose that one, they stated that the text under KDE Plasma stating "The next generation personal desktop." made them think that it was the unstable version.
 
 ![Screenshot: Navbar with "Get Fedora" selected and a table of the editions of Fedora available below.](example-pictures/getfedora.png)
-_The various editions of Fedora available with brief descriptions_
+_The various editions of Fedora available with brief descriptions._
 
 I directed them to return to the homepage and scroll down at which point they saw the boxes with expanded descriptions and clicked on "Learn More" for the Workstation edition. After looking through screenshots they commented that it "Looked like macOS" and clicked the back button to go look at the KDE Plasma edition. After scrolling down to look through they screenshots, they said that it looked more like Windows and clicked the Download button.
 
@@ -79,28 +79,31 @@ The next point of friction occured when the user attempted to install to their H
 
 _UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
 
-_See example below._
-
-![Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating "Install to Hard Drive"](example-pictures/installbutton.png)
+<img src="example-pictures/installbutton.png" alt="Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating 'Install to Hard Drive'" width="80%"> \
 _Before_
 
-![Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom](example-pictures/installbuttonedit.png)
+<img src="example-pictures/installbuttonedit.png" alt="Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom" width="80%"> \
 _After_
 
-![](example-pictures/installscreen.png)
-![](example-pictures/installreview.png)
+<p float="left">
+  <img src="example-pictures/installscreen.png" alt="" width="49%" />
+  <img src="example-pictures/installreview.png" alt="" width="49%" />
+  <i>Before</i>
+</p>
+
+
+
+<p float="left">
+  <img src="example-pictures/installscreenedit.png" alt="" width="49%" />
+  <img src="example-pictures/installreviewedit.png" alt="" width="49%" />
+  <i>After</i>
+</p>
+
+
+<img src="example-pictures/setupscreen.png" alt="" width="80%" /> \
 _Before_
 
-![](example-pictures/installscreenedit.png)
-![](example-pictures/installreviewedit.png)
-_After_
-
-
-
-![](example-pictures/setupscreen.png)
-_Before_
-
-![](example-pictures/setupscreenedit.png)
+<img src="example-pictures/setupscreenedit.png" alt="" width="80%" /> \
 _After_
 
 ### WIP

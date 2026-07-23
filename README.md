@@ -163,7 +163,7 @@ I'll keep this section brief and just limit it to the highlights and things of n
 
 ## Final thoughts
 
-Over the course my 18 years of using Linux the new user onboarding experience has **_drastically_** improved, but it still has a long ways to go before it can reach mass adoption.
+Over the course of my 18 years of using Linux the new user onboarding experience has **_drastically_** improved, but it still has a long ways to go before it can reach mass adoption.
 
 While distributions like Mint do a really good job at being welcoming to users with low technical literacy who perform more basic computing tasks like using using a word processor and browse the web, users with more technical knowledge may experience a learning curve that feels closer to a learn plateau when coming from Windows and attempting to perform tasks that they regularly did on Windows. Distributions like CachyOS and Bazzite as well as all the work Valve has put into Proton and SteamOS has gone a long way to reducing friction and initial barrier of entry when it comes to gaming on Linux. However, other areas like music production and other certain creative tasks still lag behind.
 

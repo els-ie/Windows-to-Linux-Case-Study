@@ -139,7 +139,7 @@ During this entire process, things also seemed to be running very slowly with no
 
 #### CachyOS
 
-I'll keep this section brief and just limit it to the highlights and things of note as the install process for this one went a lot smoother this time since they had a better idea of what they were doing.
+I'll keep this section brief and just limit it to the highlights and things of note as the install process for this one went a lot smoother since they had a better idea of what they were doing.
 
 - Clicking the back button at any point during the install process quit the installer.
 

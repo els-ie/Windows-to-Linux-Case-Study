@@ -147,7 +147,7 @@ I'll keep this section brief and just limit it to the highlights and things of n
 
 - Had to manually partition, but had a lot easier time with it due to Gparted being integrated into the installer.
 
-- Selected Limine as the bootloader, encounter some slight friction due to it requiring 4GB. Tried to shrink the Windows partition to expand the EFI partition at the start but was unable to and settled on creating a second EFI partition.
+- Selected Limine as the bootloader, encounter some slight friction due to it requiring 4GB. Tried to shrink the Windows partition to expand the existing EFI partition but was unable to and settled on creating a second EFI partition.
 
 - Was a little overwhelmed with all the options for desktop environments/window managers. Ended up selecting Niri as they've seen me use it on my setup and thought it looked good.
 

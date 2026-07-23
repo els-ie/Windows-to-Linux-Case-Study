@@ -159,7 +159,7 @@ I'll keep this section brief and just limit it to the highlights and things of n
 
 - Got Steam and the Unity game dev environment set up easily. Were surprised that a really old RPGMaker game ran fine through Wine. Had some issues with old GOG games, required some looking around and eventually resolved by installing flac1.3 from the AUR.
 
-- Overall says despite the initial learning curve, experience using CachyOS is a lot better than Windows and Fedora. Primary issue is that troubleshooting is hard as it feels like learning a different language with all the new terms. 
+- Despite the initial learning curve, says overall experience using CachyOS is a lot better than Windows and Fedora. Primary issue is that troubleshooting is hard as it feels like learning a different language with all the new terms. 
 
 ## Final thoughts
 

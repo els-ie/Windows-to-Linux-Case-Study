@@ -9,7 +9,7 @@ However, with the end of support for Windows 10, there's been an [uptick in disc
 Even for those that do stick with Linux, a consistent complaint seems to be how unfriendly the [installation and new user experience](https://www.reddit.com/r/linux4noobs/comments/1g66zuh/new_user_experience_installing_and_getting_started/) is compared to Windows.
 
 ### What makes a "bad" new user experience?
-Much of the unwelcoming nature of the new user experience within the Linux ecosystem has been chalked up to "that's just how Linux works". This attitude shifts the burden away from obtuseness in UX design onto the user needing to learn. While to some degree this is true and there _are_ many operational conventions that differ from Windows and will need to be relearned like the use of a package manager for software, there's a lack of signposting that makes it hard for people to even know what they don't know.
+Much of the unwelcoming nature of the new user experience within the Linux ecosystem has been chalked up to _"that's just how Linux works"_. This attitude shifts the burden away from obtuseness in UX design onto the user needing to learn. While to some degree this is true and there _are_ many operational conventions that differ from Windows and will need to be relearned like the use of a package manager for software, there's a lack of signposting that makes it hard for people to even know what they don't know.
 
 Most people want to learn new things!
 
@@ -62,7 +62,7 @@ Their primary motivation for moving off Windows:
 #### Fedora with KDE Plasma
 Originally I had them attempt to install Fedora, primary reasons being they didn't want to tinker too much and wanted something stable, but also with their primary uses cases more frequent release cycle would likely provide better compatibility with newer releases of Proton and Gamescope compared to something like Debian with more infrequent releases. 
 
-Starting from the Fedora website, there wasn't any download button immediately visible on screen so they selected the "Get Fedora" in the above navbar. Their first instinct was to select the Workstation edition. Asking them why they chose that one, they stated that the text under KDE Plasma stating "The next generation personal desktop." made them think that it was the unstable version.
+Starting from the Fedora website, there wasn't any download button immediately visible on screen so they selected the "Get Fedora" in the above navbar. Their first instinct was to select the Workstation edition. Asking them why they chose that one, they said that the text under KDE Plasma stating "The next generation personal desktop." made them think that it was the unstable version.
 
 
 <img src="example-pictures/getfedora.png" Alt="Screenshot: Navbar with 'Get Fedora' selected and a table of the editions of Fedora available below." width="900" /> \
@@ -70,7 +70,7 @@ _The various editions of Fedora available with brief descriptions._
 
 I directed them to return to the homepage and scroll down at which point they saw the boxes with expanded descriptions and clicked on "Learn More" for the Workstation edition. After looking through screenshots they commented that it "Looked like macOS" and clicked the back button to go look at the KDE Plasma edition. After scrolling down to look through they screenshots, they said that it looked more like Windows and clicked the Download button.
 
-After downloading the ISO, there was some confusion on what to do with it. They first attempted to just drop the ISO on a USB drive, but due to time constraints, I informed them that they wouldn't work. They proceeded to Google "how to install an iso". After reading they began to look for utilities to write it to USB. I informed them that there was a link to a program that could do it on the Fedora download page. They then returned to the download page and clicked on the link to download Fedora Media Writer which took them to a GitHub page, there was about 30 seconds of hesitation as they tried to find the download link.
+After downloading the ISO, there was some confusion on what to do with it. They first attempted to just drop the ISO on a USB drive, but due to time constraints, I informed them that they wouldn't work. They proceeded to Google _"how to install an iso"_. After reading they began to look for utilities to write it to USB. I informed them that there was a link to a program that could do it on the Fedora download page. They then returned to the download page and clicked on the link to download Fedora Media Writer which took them to a GitHub page, there was about 30 seconds of hesitation as they tried to find the download link.
 
 > [!NOTE]
 > _UX improvement opportunity: The download process could likely be streamlined by directly linking to the file download instead of directing to a GitHub download page._
@@ -92,7 +92,7 @@ After some confusion clicking next though the welcome center slides and having t
 
 They clicked next through the language options as their native language English was selected by default. Upon reaching the "Installation method" screen they selected the "Share disk with another operating system" option as they were installing Fedora as a dual boot alongside Windows. When the "Reclaim space" window popped up, they stared at it for a while and became hesitant about continuing the installation process as they didn't know how to operate it, had a hard time telling how the disk was actually partitioned, and what actions would affect their Windows install. They continued to hesitate for a while before deciding to abort the installation process and reboot back into Windows to shrink their partition there.
 
-After partitioning the disk how they wanted to in Windows, they returned to the Fedora Live USB, again becoming annoyed at it setting their smaller monitor as the primary monitor and commented "Why doesn't it just detect the larger monitor as the main one?" They configured their monitor settings again and re-ran the installer. Again it opened on their secondary monitor, this time they just made an annoyed sound and didn't attempt to mess with it at all. They continued through the installation process, selecting the same options as prior. They opted not to enable encryption.
+After partitioning the disk how they wanted to in Windows, they returned to the Fedora Live USB, again becoming annoyed at it setting their smaller monitor as the primary monitor and commented _"Why doesn't it just detect the larger monitor as the main one?"_ They configured their monitor settings again and re-ran the installer. Again it opened on their secondary monitor, this time they just made an annoyed sound and didn't attempt to mess with it at all. They continued through the installation process, selecting the same options as prior. They opted not to enable encryption.
 
 When they reached the "Review and install" screen there was some confusion caused by it displaying the /home mount point as the total size shown didn't match the space they had freed up and there were concerns that it was overwriting their Windows install. After explaining /home is located within the root (/) mount point and it wasn't a separate partition, they clicked the install button and proceeded to wait as it installed.
 
@@ -123,7 +123,7 @@ _After_
 
 They clicked through the setup option, selecting dark mod and only pausing on the Hostname screen to ask what "Hostname" was to which I explained it's the name of their PC and they'd primarily see it in the terminal as username@hostname. After completing setup they immediately went to display settings to configure their monitor layout. Next they read though the Welcome Center exploring the various features explained in the slides.
 
-Looking in the KDE app store they seemed bemused at the list of games available, and installed the game 0 A.D as they're a fan of the Age of Empires series. They looked through the installed applications list asking "What is all this?" in reference to it displaying installed libraries, they also commented that they didn't think installed fonts needed to show up in here.
+Looking in the KDE app store they seemed bemused at the list of games available, and installed the game 0 A.D as they're a fan of the Age of Empires series. They looked through the installed applications list asking _"What is all this?"_ in reference to it displaying installed libraries, they also commented that they didn't think installed fonts needed to show up in here.
 
 > [!NOTE]
 > _UX improvement opportunity: Add categories to the installed application list in the KDE app store, similar to how the GNOME app store does it._
@@ -151,7 +151,7 @@ I'll keep this section brief and just limit it to the highlights and things of n
 
 - Was a little overwhelmed with all the options for desktop environments/window managers. Ended up selecting Niri as they've seen me use it on my setup and thought it looked good.
 
-- During the installation they asked how long it would take commenting "It would be nice if there was some sort of estimate."
+- During the installation they asked how long it would take commenting _"It would be nice if there was some sort of estimate."_
 
 - Primary monitor wouldn't turn on at all after rebooting and logging in for the first time. After troubleshooting discovered it was the result of it going through a dock with a display switcher, plugged monitor in directly and it resolved the issue. Seems to be a Niri specific issue as that didn't happen with Plasma.
 

@@ -56,8 +56,8 @@ The Linux onboarding experience covers an incredibly broad number of use cases a
 - Consider themselves highly confident when it comes to their technical skills with Windows.
 - Exposure to Linux is limited to them running it off a live CD for a few weeks when they needed to take notes for class and their hard drive was broken. 
 
-Primary motivation for deciding to to move off Windows is: \
-"Windows has gotten slower, windows updates have caused my computer issues numerous times. It's been bloated with unnecessary AI features such as Copilot and the search functionality has become infinitely worse since the days that I could just tap the windows key and type a file name. I've had a windows update nearly brick my work computer earlier this year."
+Their primary motivation for deciding to to move off Windows:
+> "Windows has gotten slower, windows updates have caused my computer issues numerous times. It's been bloated with unnecessary AI features such as Copilot and the search functionality has become infinitely worse since the days that I could just tap the windows key and type a file name. I've had a windows update nearly brick my work computer earlier this year."
 
 #### Fedora with KDE Plasma
 Originally I had them attempt to install Fedora, primary reasons being they didn't want to tinker too much and wanted something stable, but also with their primary uses cases more frequent release cycle would likely provide better compatibility with newer releases of Proton and Gamescope compared to something like Debian with more infrequent releases. 
@@ -72,13 +72,15 @@ I directed them to return to the homepage and scroll down at which point they sa
 
 After downloading the ISO, there was some confusion on what to do with it. They first attempted to just drop the ISO on a USB drive, but due to time contraints, I informed them that they wouldn't work. They proceeded to Google "how to install an iso". After reading they began to look for utilities to write it to USB. I informed them that there was a link to a program that could do it on the Fedora download page. They then returned to the download page and clicked on the link to download Fedora Media Writer which took them to a GitHub page, there was about 30 seconds of hesitation as they tried to find the download link.
 
-_UX improvement suggestion: The download process could likely be streamlined by directly linking to the file download instead of directing to a GitHub download page._
+> [!NOTE]
+> _UX improvement suggestion: The download process could likely be streamlined by directly linking to the file download instead of directing to a GitHub download page._
 
 The process of writing the ISO to the went smoothly. After doing so they rebooted into their live enviroment. There was some initial concern from them due to having a multi-monitor setup and the screen being duplicated across both their displays. This quickly fixed itself but then there was some annoyance due to their smaller non-primary monitor being treated as the primary one.
 
 The next point of friction occured when the user attempted to install to their Hard Drive. When attempting to install they clicked the "Next" button as they thought the Fedora icon in the center was just an image and it wasn't immediately obvious that it was a button.
 
-_UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
+> [!NOTE]
+> _UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
 
 <img src="example-pictures/installbutton.png" alt="Screenshot: Fedora Welcome Center with a large icon of the Fedora logo in the center with text below stating 'Install to Hard Drive'" width="600"> \
 _Before_
@@ -86,19 +88,23 @@ _Before_
 <img src="example-pictures/installbuttonedit.png" alt="Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom" width="600"> \
 _After_
 
+> [!NOTE]
+> _UX improvement suggestion: Build KDE partition manager into the interface to give better visual indication of how the disk will be partitioned, also remove the /home mountpoint on the review screen as it's uncessary information and causes confusion about the actual partition scheme._
+
 <p float="left">
   <img src="example-pictures/installscreen.png" alt="Screenshot: Screen asking how the disk should be partitioned in the Fedora installer" width="49%" />
   <img src="example-pictures/installreview.png" alt="Screenshot: Review and install screen of Fedora installer" width="49%" />
   <i>Before</i>
 </p>
-
-
 <p float="left">
   <img src="example-pictures/installscreenedit.png" alt="Screenshot: Same screen from above asking how the disk should be partitioned with the KDE Partition Manager built into the interface" width="49%" />
   <img src="example-pictures/installreviewedit.png" alt="Screenshot: Review and install screen with the KDE Partition Manager built into the interface" width="49%" />
   <i>After</i>
 </p>
 
+
+> [!NOTE]
+> _UX improvement suggestion: Add display and accessibility buttons on the setup screen. It's incredibly frustrating for the user to have to go through the entire setup process to access these, especially if their screen doesn't default to the correct layout._
 
 <img src="example-pictures/setupscreen.png" alt="Screenshot: Fedora KDE Plasma setup screen" width="800" /> \
 _Before_

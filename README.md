@@ -75,9 +75,9 @@ After downloading the ISO, there was some confusion on what to do with it. They 
 > [!NOTE]
 > _UX improvement suggestion: The download process could likely be streamlined by directly linking to the file download instead of directing to a GitHub download page._
 
-The process of writing the ISO to the went smoothly. After doing so they rebooted into their live enviroment. There was some initial concern from them due to having a multi-monitor setup and the screen being duplicated across both their displays. This quickly fixed itself but then there was some annoyance due to their smaller non-primary monitor being treated as the primary one.
+The process of writing the ISO to the went smoothly. After doing so they rebooted into their live enviroment. There was some initial concern from them due to having a multi-monitor setup and the screen being duplicated across both their displays. This quickly fixed itself but then there was some annoyance due to their smaller non-primary monitor being treated as the primary one. They then went into the display settings and configured their larger main monitor to be the primary display.
 
-The next point of friction occured when the user attempted to install to their Hard Drive. When attempting to install they clicked the "Next" button as they thought the Fedora icon in the center was just an image and it wasn't immediately obvious that it was a button.
+The next point of friction occured when the user attempted to install to Fedora to their hard drive. When going to install they clicked the "Next" button, as they thought the Fedora icon in the center was just an image and it wasn't immediately obvious that it was something that could be clicked.
 
 > [!NOTE]
 > _UX improvement suggestion: Place an Install button beside the Next button with updated information text stating what the Next button does._
@@ -87,6 +87,12 @@ _Before_
 
 <img src="example-pictures/installbuttonedit.png" alt="Screenshot: The same image as above, however the text below the logo has been removed and there is now an install button at the bottom" width="600"> \
 _After_
+
+After some confusion clicking next though the welcome center slides and having the application close, they clicked the "Install to Hard Drive" icon on the desktop. Some further friction occured when the Anaconda installer opened on their non-primary display despite configuring their larger main monitor to be the primary earlier. They attempted to drag the installer window over to their primary display and after a few attempts quit out of the installer and tried to run it again. It continued to open up on the wrong monitor and they repeated this process another two times becoming increasingly frustrated before giving up and continuing the installation process on their secondary monitor.
+
+They clicked next through the language options as their native language English was selected by default. Upon reaching the "Installation method" screen they selected the "Share disk with another operating system" option as they were installing Fedora as a dual boot alongside Windows. When the "Reclaim space" window popped up, they stared at it for a while and became hesitant about continuing the installation process as they didn't know how to operate it and had a hard time telling how the disk was actually partitioned and what actions would affect their Windows install. After staring at it for a while, they decided to abort the installation process and proceeded to reboot back into Windows to shrink their partition in there.
+
+After partitioning the disk how they wanted to in Windows, they returned to the Fedora Live USB, again becoming annoyed at it setting their smaller monitor as the primary monitor and commented "Why doesn't it just detect the larger monitor as the main one?". They configured their monitor settings again and re-ran the installer. Again it opened on their secondary monitor, this time they just made an annoyed sound and didn't attempt to mess with it at all.
 
 > [!NOTE]
 > _UX improvement suggestion: Build KDE partition manager into the interface to give better visual indication of how the disk will be partitioned, also remove the /home mountpoint on the review screen as it's uncessary information and causes confusion about the actual partition scheme._
